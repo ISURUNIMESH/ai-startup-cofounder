@@ -330,7 +330,7 @@ The AI Startup Co-Founder application follows a structured workflow to evaluate 
 
 The application can be accessed through the following Streamlit deployment:
 
-**Live Demo:** https://your-streamlit-app.streamlit.app
+**Live Demo:**(https://startup-cofounder.streamlit.app/)
 
 
 ---
