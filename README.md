@@ -371,7 +371,7 @@ The following enhancements are planned for future versions:
 
 ---
 
-## License
+### License
 
 This project is developed for academic purposes as part of the Agentic AI Application Development assignment.
 
