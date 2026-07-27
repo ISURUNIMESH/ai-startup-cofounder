@@ -152,7 +152,7 @@ The application uses LangGraph's shared `StartupState` object for agent-to-agent
 ### Agent Communication Diagram
 
 <p align="center">
-  <img src="images/image 8.png" width="900">
+  <img src="images/image 2.png" width="600">
 </p>
 
 ### Agent Responsibilities
@@ -175,7 +175,7 @@ The knowledge base is created by processing startup-related documents, convertin
 ### RAG Pipeline Diagram
 
 <p align="center">
-  <img src="images/image 9.png" width="900">
+  <img src="images/image 9.png" width="500">
 </p>
 
 ### RAG Workflow
