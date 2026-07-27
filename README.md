@@ -86,13 +86,11 @@ The primary objectives of this project are:
 
 The application supports multiple Large Language Models (LLMs) through a configurable model router. Different models can be selected depending on the requirements of each AI agent.
 
-| Model | Provider | Primary Use | Reason for Selection |
-|-------|----------|-------------|----------------------|
-| Gemini 2.5 Flash Lite | OpenRouter | Primary model for most agents | Provides fast response generation, reliable structured JSON output, and cost-effective performance for sequential multi-agent workflows. |
-| DeepSeek R1 | OpenRouter | Advanced reasoning tasks (optional) | Offers strong reasoning capabilities for complex analyses, although it requires higher token limits and longer response times. |
-| Llama 3.3 70B | Groq | Alternative model | Delivers high-speed inference and serves as a reliable fallback when an alternative provider is required. |
-
----
+| Sub-task | Model (Provider) | Latency | Cost per Token | Context Window | Reasoning Quality | Why Chosen |
+|----------|------------------|---------|----------------|----------------|-------------------|------------|
+| Primary Multi-Agent Analysis | Gemini 2.5 Flash Lite (OpenRouter) | Very Low | Low | Large | Good | Provides fast response generation, reliable structured JSON output, and cost-effective performance for sequential multi-agent workflows. |
+| Advanced Reasoning (Optional) | DeepSeek R1 (OpenRouter) | Medium | Medium | Large | Excellent | Used for complex reasoning tasks where stronger reasoning quality is required. |
+| Alternative Provider | Llama 3.3 70B (Groq) | Very Low | Low | Large | Very Good | Provides high-speed inference and serves as a reliable alternative provider when required. |
 
 ## Model Selection Strategy
 
