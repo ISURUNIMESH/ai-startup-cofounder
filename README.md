@@ -402,6 +402,10 @@ The application can be accessed through the following Streamlit deployment:
 
 ---
 
+## 🎥 Demo Video
+
+[▶ Watch Demo Video](video/sv.mp4)
+
 ## Known Limitations
 
 The current implementation has the following limitations:
